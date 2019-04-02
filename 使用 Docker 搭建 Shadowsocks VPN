@@ -1,0 +1,75 @@
+首先要有一台海外服务器，
+然后在该服务器上安装 docker。
+以 CentOS 为例 安装 docker 及 docker 的一些基本命令：
+```
+## 使用 yum 安装 docker
+yum inatall docker -y
+
+## 启动 docker
+service docker start
+
+## 将 docker 加入开机启动
+chkconfig docker on
+
+## 查看docker的版本号，包括客户端、服务端、依赖的Go等
+docker version
+
+## 查看系统(docker)层面信息，包括管理的images, containers数等
+docker info
+
+## 下载镜像 从docker registry server 中下拉image
+docker pull <image>
+
+## 列出当前所有正在运行的container
+docker ps
+
+## 开启/停止/重启container
+docker start/stop/restart <container>
+```
+
+### 搭建 Shadowsocks VPN
+
+#### 第一步 在服务器上安装并启动 docker:
+```
+## 安装并启动 docker
+yum install -y docker
+service docker start
+chkconfig docker on
+```
+
+#### 第二步 拉取镜像
+[oddrationale/docker-shadowsocks](https://hub.docker.com/r/oddrationale/docker-shadowsocks/) 是别人做好的 shadowsocks 镜像，使用 docker pull 拉取：
+```
+## 下载镜像
+docker pull oddrationale/docker-shadowsocks
+```
+
+#### 第三部 镜像下载之后 运行该镜像
+```
+## docker run 运行镜像
+docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k aaa -m aes-256-cfb
+```
+> 参数说明
+- `-d` 参数允许 docker 长期后台运行
+- `-p` 来指定要映射的端口，这里端口号统一保持一致即可。例如：12345
+- `-s` 服务器 IP 地址，不用动
+- `-k` 后面设置你的 VPN 的密码，比如：aaa
+- `-m` 指定加密方式
+
+#### 最后 运行docker ps -a查看容器是否已成功运行起来了
+```
+docker ps -a
+```
+
+如果运行成功，Shadowsocks VPN 就已经搭建完成了。
+
+下面我们来安装客户端：
+
+## VPN 客户端安装
+在PC端安装 shadowsocks:
+- [Shadowsocks (Windows版本)](https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-使用说明?spm=a2c4e.11153940.blogcont599205.13.3fcb1482Y8T38o)
+- [ShadowsocksX-NG (Mac版本)](https://github.com/shadowsocks/ShadowsocksX-NG?spm=a2c4e.11153940.blogcont599205.14.3fcb1482jG6cq7)
+
+以 Mac 系统为例，在安装了 shadowsocks 后，会显示一个小飞机的图标，点击图标进入 服务器设置，然后按照 docker 启动时的信息填到相应的设置输入框里，保存。
+
+**使用：** 设置浏览器为 代理模式， 然后输入 google.com 测试是否成功。
