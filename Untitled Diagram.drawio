@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-05T16:26:46.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ntkC7M6fWmjnsdwR2F0E" version="13.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-05T16:39:48.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="yXnKPLnVolVpxdyzCmH0" version="13.1.12" type="github">
   <diagram id="Zyiit8WRXVwheUQ-SJ99" name="Page-1">
     <mxGraphModel dx="1455" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,8 +229,8 @@
         <mxCell id="XxC4l4LAaYLKOjhg_-a7-12" value="弹窗&lt;br&gt;用户输入文件名" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="527" y="210.37" width="110" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="XxC4l4LAaYLKOjhg_-a7-14" value="请求 data 接口 获取文档数据" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;dashed=1;fontSize=12;verticalAlign=top;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="496" y="843" width="87" height="53" as="geometry" />
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-14" value="请求 data 接口 获取文档数据" style="text;strokeColor=none;fillColor=#ffffff;spacing=0;spacingTop=0;overflow=hidden;rounded=0;dashed=1;fontSize=12;verticalAlign=top;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="533" y="843" width="87" height="53" as="geometry" />
         </mxCell>
         <mxCell id="XxC4l4LAaYLKOjhg_-a7-15" value="url：&#xa;path=xx.wp&#xa;action=edit&#xa;fsid=123&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=#ffffff;spacing=0;spacingTop=0;overflow=hidden;rounded=0;dashed=1;fontSize=12;verticalAlign=top;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="412" y="207" width="72" height="60" as="geometry" />
@@ -358,6 +358,27 @@
         </mxCell>
         <mxCell id="XxC4l4LAaYLKOjhg_-a7-78" value="问题：1. 需求文档里有说文档的标题变了 文件名 会截取文档的前 n 个字同步更新，这里评审没有说具体逻辑&#xa;2. 重命名要不要更新版本？？" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;fontSize=12;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="48" y="2192" width="695" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-79" value="文档编辑页 - 上传图片流程" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="42" y="2388" width="248" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-80" value="&lt;font color=&quot;#000000&quot;&gt;点击上传图片按钮&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#990000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="276" y="2446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-82" value="文件选择" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="296" y="2547" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-83" value="本地上传" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-84" value="网盘内导入" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="127" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-85" value="网盘列表弹层" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="127" y="2679" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxC4l4LAaYLKOjhg_-a7-86" value="过滤只能选中图片" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#4D4D4D;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="127" y="2787" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
