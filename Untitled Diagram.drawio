@@ -1,16 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T03:20:44.883Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="JBDR2_JN_EzYNgWWLJ4g" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-14T03:57:02.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ClI5W7xl6IRkx5bVkcSx" version="13.3.9" type="github">
   <diagram id="Zyiit8WRXVwheUQ-SJ99" name="Page-1">
-    <mxGraphModel dx="1426" dy="3027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="2912" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1aMFZUBl64lX4fMlub7T-537" value="convert 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
+          <mxGeometry x="455" y="-750" width="114" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-535" value="create 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="-750" width="99.5" height="442" as="geometry" />
+        </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-391" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#0e8088;strokeWidth=1;fillColor=#b0e3e6;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="182" y="-1364" width="549" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-316" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-317">
+        <mxCell id="1aMFZUBl64lX4fMlub7T-316" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="92" y="-127" as="sourcePoint" />
-            <mxPoint x="91.5" y="-898" as="targetPoint" />
+            <mxPoint x="92" y="-873" as="sourcePoint" />
+            <mxPoint x="91.5" y="-1035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-208" value="弹出提示层：已存在同名wp文件，直接编辑 or 新建" style="rounded=0;fontSize=12;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;horizontal=1;whiteSpace=wrap;html=1;glass=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
@@ -198,20 +204,14 @@
         <mxCell id="XxC4l4LAaYLKOjhg_-a7-127" value="文档编辑页 - 插入本地资源" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="51.5" y="4714" width="248" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-2" value="新建 wp 文档、打开 A.docx、打开 A.wp 时序示意" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="-1135" width="460" height="28" as="geometry" />
+        <mxCell id="1aMFZUBl64lX4fMlub7T-2" value="在线文档页面 - 新建 wp 文档时的接口调用逻辑时序示意图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="-1135" width="527" height="28" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-14" value="filemetas 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#B3B3B3;" vertex="1" parent="1">
-          <mxGeometry x="188" y="-925" width="97" height="892" as="geometry" />
-        </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-498" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-14">
-          <mxGeometry x="43.88" y="299" width="10" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-526" value="新建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-14">
-          <mxGeometry x="28" y="518" width="34" height="18" as="geometry" />
+          <mxGeometry x="188" y="-1056" width="97" height="183" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-28" value="新建-本地导入X.doc/docx&lt;br&gt;&lt;br&gt;点击 X.doc/docx" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="21.75" y="-659" width="62" height="94" as="geometry" />
+          <mxGeometry x="21.75" y="-715" width="62" height="94" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-56" value="新建空白 wp 文档流程图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="65.13" y="55" width="229" height="28" as="geometry" />
@@ -443,58 +443,55 @@
         <mxCell id="1aMFZUBl64lX4fMlub7T-246" value="打开 A.docx 流程图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="67.25" y="1213" width="188" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-260" value="文档编辑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="34" y="-977" width="758" height="30" as="geometry" />
+        <mxCell id="1aMFZUBl64lX4fMlub7T-260" value="在线文档编辑页面-地址栏 -&amp;nbsp;&lt;span style=&quot;text-align: left&quot;&gt;path=/xxx/&amp;amp;action=create&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="34" y="-1087" width="758" height="19" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-264" value="create 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="-925" width="99.5" height="900" as="geometry" />
+          <mxGeometry x="322.5" y="-1056" width="99.5" height="178" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-279" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-264">
-          <mxGeometry x="45.5" y="86" width="10" height="73" as="geometry" />
+          <mxGeometry x="45.5" y="66" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-265" value="convert 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
-          <mxGeometry x="455" y="-925" width="114" height="898" as="geometry" />
-        </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-266" value="1. path=/xxx/&amp;amp;action=create&lt;br&gt;&lt;div&gt;&lt;span&gt;2. path=/a.docx&amp;amp;action=create&amp;amp;fs_id=xxx&amp;amp;type=4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3. path=/a&amp;amp;action=edit&amp;amp;fs_id=xxx&amp;amp;&lt;/span&gt;&lt;span&gt;type=10&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="34" y="-1048" width="276" height="46" as="geometry" />
+          <mxGeometry x="455" y="-1056" width="114" height="171" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-19" value="新建空白wp文档" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="25" y="-851" width="55.5" height="52" as="geometry" />
+          <mxGeometry x="25" y="-1008" width="55.5" height="52" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-277" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="87" y="-870" width="10" height="157" as="geometry" />
+          <mxGeometry x="87" y="-1013" width="10" height="122" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-278" value="1. 带着 path&amp;nbsp; 与 action=create 去请求 create 接口" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="99" y="-828" as="sourcePoint" />
-            <mxPoint x="364" y="-828" as="targetPoint" />
+            <mxPoint x="99" y="-985" as="sourcePoint" />
+            <mxPoint x="364" y="-985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-282" value="" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380.5" y="-774" as="sourcePoint" />
-            <mxPoint x="623" y="-774" as="targetPoint" />
+            <mxPoint x="380.5" y="-941" as="sourcePoint" />
+            <mxPoint x="623" y="-941" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-283" value="文档编辑器内核" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;" vertex="1" parent="1">
-          <mxGeometry x="594" y="-925" width="100" height="902" as="geometry" />
+          <mxGeometry x="594" y="-1056" width="100" height="167" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-253" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-283">
-          <mxGeometry x="45" y="23" width="10" height="870" as="geometry" />
+          <mxGeometry x="45" y="23" width="10" height="136" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-285" value="4. ws 连接中台服务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1aMFZUBl64lX4fMlub7T-283">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55.5" y="151" as="sourcePoint" />
+            <mxPoint x="55.5" y="115" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80.5" y="151" />
+              <mxPoint x="80.5" y="115" />
             </Array>
-            <mxPoint x="60.5" y="171" as="targetPoint" />
+            <mxPoint x="60.5" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-287" value="1. 查询同目录下&lt;br&gt;有没有 X.wp 文档" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="99.5" y="-614" as="sourcePoint" />
-            <mxPoint x="227" y="-614" as="targetPoint" />
+            <mxPoint x="99.5" y="-674" as="sourcePoint" />
+            <mxPoint x="227" y="-674" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-294" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-293" target="1aMFZUBl64lX4fMlub7T-198">
@@ -535,39 +532,33 @@
           <mxGeometry x="230" y="952.31" width="103" height="65" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-317" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="87" y="-679" width="10" height="432" as="geometry" />
-        </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-318" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-328" target="1aMFZUBl64lX4fMlub7T-317">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="92" y="-147" as="sourcePoint" />
-            <mxPoint x="91.5" y="-918" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="87" y="-711" width="10" height="404" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-321" value="编辑 X.wp" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="21.75" y="-148" width="62" height="30" as="geometry" />
+          <mxGeometry x="21.75" y="-158" width="62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-326" value="2. 带着X.wp 的 fs_id 去调用编辑器获取数据的方法" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="101" y="-86" as="sourcePoint" />
-            <mxPoint x="638" y="-86" as="targetPoint" />
+            <mxPoint x="101" y="-96" as="sourcePoint" />
+            <mxPoint x="638" y="-96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-327" value="3. ws 连接 数据回填&lt;br&gt;并通知视图层结果" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650.5" y="-81" as="sourcePoint" />
+            <mxPoint x="650.5" y="-91" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="675.5" y="-81" />
+              <mxPoint x="675.5" y="-91" />
             </Array>
-            <mxPoint x="655.5" y="-61" as="targetPoint" />
+            <mxPoint x="655.5" y="-71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-328" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="87" y="-158" width="10" height="130" as="geometry" />
+        <mxCell id="1aMFZUBl64lX4fMlub7T-328" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="87" y="-168" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-329" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1" target="1aMFZUBl64lX4fMlub7T-328">
+        <mxCell id="1aMFZUBl64lX4fMlub7T-329" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=12;fontColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="92" y="-37" as="sourcePoint" />
-            <mxPoint x="92" y="-295" as="targetPoint" />
+            <mxPoint x="92" y="-47" as="sourcePoint" />
+            <mxPoint x="92" y="-27" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-471" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=1;endSize=6;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-332" target="1aMFZUBl64lX4fMlub7T-472">
@@ -894,181 +885,223 @@
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-487" value="" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;dashed=1;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="635" y="-738" as="sourcePoint" />
-            <mxPoint x="102" y="-738" as="targetPoint" />
+            <mxPoint x="635" y="-914" as="sourcePoint" />
+            <mxPoint x="102" y="-914" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-488" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;5. 通知页面 创建成功&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="369.75" y="-748" width="126" height="18" as="geometry" />
+          <mxGeometry x="398.38" y="-921" width="126" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-490" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;3. 带着 fs_id 调用获取数据的方法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="399.5" y="-793" width="187" height="18" as="geometry" />
+          <mxGeometry x="399.5" y="-960" width="187" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-512" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startFill=1;endSize=6;fillColor=#ffffff;fontSize=12;fontColor=#000000;strokeWidth=2;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-494">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="161.0344827586207" y="-417.1379310344828" as="targetPoint" />
+            <mxPoint x="161.0344827586207" y="-477.1379310344828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-494" value="是否存在X.wp" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;strokeWidth=1;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="136" y="-575" width="50.5" height="39" as="geometry" />
+          <mxGeometry x="136" y="-635" width="50.5" height="39" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-517" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startFill=1;endSize=6;strokeWidth=2;fillColor=#ffffff;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-495">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="161" y="-321" as="targetPoint" />
+            <mxPoint x="161" y="-381" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-524" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=1;endSize=6;strokeColor=#000000;strokeWidth=2;fillColor=#ffffff;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-495" target="1aMFZUBl64lX4fMlub7T-523">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-495" value="提示用户是直接编辑X.wp还是重新创建" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;strokeWidth=1;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="116.75" y="-414" width="89" height="59" as="geometry" />
+          <mxGeometry x="116.75" y="-474" width="89" height="59" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-289" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=left;strokeColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="368.38" y="-570" width="10" height="58" as="geometry" />
+          <mxGeometry x="368.38" y="-630" width="10" height="58" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-307" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=left;strokeColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="505.88" y="-536" width="10" height="55" as="geometry" />
+          <mxGeometry x="505.88" y="-596" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-291" value="不存在：A-2. 创建 X.wp" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#009900;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-494">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="247.88" y="-555" as="sourcePoint" />
-            <mxPoint x="360.88" y="-555" as="targetPoint" />
+            <mxPoint x="247.88" y="-615" as="sourcePoint" />
+            <mxPoint x="360.88" y="-615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-306" value="A-4. 请求转码" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="379.38" y="-525" as="sourcePoint" />
-            <mxPoint x="497.88" y="-525" as="targetPoint" />
+            <mxPoint x="379.38" y="-585" as="sourcePoint" />
+            <mxPoint x="497.88" y="-585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-311" value="A-6. 调用编辑器获取&lt;br&gt;数据的方法" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
+        <mxCell id="1aMFZUBl64lX4fMlub7T-311" value="A-6. 调用编辑器内核&lt;br&gt;获取数据的方法" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="516.8799999999998" y="-488" as="sourcePoint" />
-            <mxPoint x="635.38" y="-488" as="targetPoint" />
+            <mxPoint x="516.8799999999998" y="-548" as="sourcePoint" />
+            <mxPoint x="635.38" y="-548" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-315" value="A-7. ws 连接中台服务&lt;br&gt;获取到X.wp文档数据&lt;br&gt;并回填" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="651.38" y="-488" as="sourcePoint" />
+            <mxPoint x="651.38" y="-546" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="676.38" y="-488" />
+              <mxPoint x="676.38" y="-546" />
             </Array>
-            <mxPoint x="656.38" y="-468" as="targetPoint" />
+            <mxPoint x="656.38" y="-526" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-500" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startFill=1;endSize=6;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;arcSize=0;" edge="1" parent="1" target="1aMFZUBl64lX4fMlub7T-494">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="226" y="-598" as="sourcePoint" />
+            <mxPoint x="226" y="-658" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-501" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="363.38000000000005" y="-812.9999999999998" as="sourcePoint" />
+            <mxPoint x="363.38000000000005" y="-969.9999999999998" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="351.18" y="-813" />
-              <mxPoint x="351.18" y="-793" />
+              <mxPoint x="351.18" y="-970" />
+              <mxPoint x="351.18" y="-950" />
             </Array>
-            <mxPoint x="368.38000000000005" y="-793" as="targetPoint" />
+            <mxPoint x="368.38000000000005" y="-950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-485" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;2. 创建成功后 初始化编辑器&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="192" y="-811.5" width="159" height="18" as="geometry" />
+          <mxGeometry x="192" y="-968.5" width="159" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-503" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="359.6300000000001" y="-545.9999999999995" as="sourcePoint" />
+            <mxPoint x="359.6300000000001" y="-605.9999999999995" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="347.43" y="-546" />
-              <mxPoint x="347.43" y="-526" />
+              <mxPoint x="347.43" y="-606" />
+              <mxPoint x="347.43" y="-586" />
             </Array>
-            <mxPoint x="364.6300000000001" y="-526" as="targetPoint" />
+            <mxPoint x="364.6300000000001" y="-586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-504" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;A-3. 创建成功&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="264" y="-546" width="83" height="18" as="geometry" />
+          <mxGeometry x="264" y="-606" width="83" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-505" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="498.3800000000001" y="-517.0199999999995" as="sourcePoint" />
+            <mxPoint x="498.3800000000001" y="-577.0199999999995" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="486.18" y="-517.02" />
-              <mxPoint x="486.18" y="-497.02" />
+              <mxPoint x="486.18" y="-577.02" />
+              <mxPoint x="486.18" y="-557.02" />
             </Array>
-            <mxPoint x="503.3800000000001" y="-497.02" as="targetPoint" />
+            <mxPoint x="503.3800000000001" y="-557.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-506" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;A-5. 转码成功&lt;br&gt;初始化编辑器&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="402.75" y="-522.02" width="83" height="32" as="geometry" />
+          <mxGeometry x="402.75" y="-582.02" width="83" height="32" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-507" value="" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;fontColor=#000000;dashed=1;strokeColor=#009900;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="635" y="-458" as="sourcePoint" />
-            <mxPoint x="102.00000000000023" y="-458" as="targetPoint" />
+            <mxPoint x="635" y="-518" as="sourcePoint" />
+            <mxPoint x="102.00000000000023" y="-518" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-508" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;A-8. 通知页面 创建 X.wp 成功&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347.75" y="-468" width="171" height="18" as="geometry" />
+          <mxGeometry x="347.75" y="-528" width="171" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-513" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="142.88" y="-524" width="34" height="18" as="geometry" />
+          <mxGeometry x="142.88" y="-584" width="34" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-514" value="B-2. 初始化编辑器" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#A3A3A3;strokeWidth=1;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="105.75" y="-316" width="112.5" height="24" as="geometry" />
+          <mxGeometry x="105.75" y="-376" width="112.5" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-518" value="B-3. 带着X.wp 的 fs_id 去调用编辑器获取数据的方法" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="1aMFZUBl64lX4fMlub7T-518" value="B-3. 带着X.wp 的 fs_id 去调用编辑器内核获取数据的方法" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="219.5" y="-304.5" as="sourcePoint" />
-            <mxPoint x="636" y="-304" as="targetPoint" />
+            <mxPoint x="219.5" y="-364.5" as="sourcePoint" />
+            <mxPoint x="636" y="-364" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-519" value="B-4. ws 连接中台服务&lt;br&gt;获取到X.wp文档数据&lt;br&gt;并回填" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;fontSize=12;fontColor=#000000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="653.2300000000001" y="-303" as="sourcePoint" />
+            <mxPoint x="653.2300000000001" y="-363" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="678.23" y="-303" />
+              <mxPoint x="678.23" y="-363" />
             </Array>
-            <mxPoint x="658.2300000000001" y="-283" as="targetPoint" />
+            <mxPoint x="658.2300000000001" y="-343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-520" value="" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;dashed=1;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="635" y="-273" as="sourcePoint" />
-            <mxPoint x="102" y="-273" as="targetPoint" />
+            <mxPoint x="635" y="-333" as="sourcePoint" />
+            <mxPoint x="102" y="-333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-521" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;B-5. 通知页面 打开 X.wp 成功&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="354" y="-282" width="171" height="18" as="geometry" />
+          <mxGeometry x="354" y="-342" width="171" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-522" value="编辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="164.3" y="-349" width="34" height="18" as="geometry" />
+          <mxGeometry x="164.3" y="-409" width="34" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="1aMFZUBl64lX4fMlub7T-523" value="&amp;nbsp;走路线 A 创建流程&lt;br&gt;创建 X1.wp" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;shadow=0;glass=0;strokeColor=#82b366;strokeWidth=1;fontSize=12;align=center;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="268.88" y="-400.5" width="109" height="32" as="geometry" />
+        <mxCell id="1aMFZUBl64lX4fMlub7T-523" value="&amp;nbsp;走路线 A 创建流程&lt;br&gt;创建 X1.wp" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;shadow=0;glass=0;strokeWidth=1;fontSize=12;align=center;fillColor=none;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="268.88" y="-460.5" width="109" height="32" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-525" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startFill=1;endSize=6;strokeColor=#000000;strokeWidth=2;fillColor=#ffffff;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="1aMFZUBl64lX4fMlub7T-523" target="1aMFZUBl64lX4fMlub7T-523">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-528" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="97.00000000000014" y="-133" as="sourcePoint" />
+            <mxPoint x="97.00000000000014" y="-143" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="119.91" y="-133" />
-              <mxPoint x="119.91" y="-113" />
+              <mxPoint x="119.91" y="-143" />
+              <mxPoint x="119.91" y="-123" />
             </Array>
-            <mxPoint x="102.00000000000014" y="-113" as="targetPoint" />
+            <mxPoint x="102.00000000000014" y="-123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-529" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;1. 初始化编辑器&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="119" y="-132" width="95" height="18" as="geometry" />
+          <mxGeometry x="119" y="-142" width="95" height="18" as="geometry" />
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-530" value="" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#000000;fontSize=12;fontColor=#000000;dashed=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="635" y="-53" as="sourcePoint" />
-            <mxPoint x="102" y="-53" as="targetPoint" />
+            <mxPoint x="635" y="-63" as="sourcePoint" />
+            <mxPoint x="102" y="-63" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1aMFZUBl64lX4fMlub7T-531" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;4. 通知页面 打开 X.wp 成功&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-62" width="159" height="18" as="geometry" />
+          <mxGeometry x="360" y="-72" width="159" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-532" value="filemetas 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="188" y="-750" width="97" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-538" value="文档编辑器内核" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;" vertex="1" parent="1">
+          <mxGeometry x="594" y="-750" width="100" height="439" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-539" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-538">
+          <mxGeometry x="45" y="23" width="10" height="407" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-546" value="在线文档编辑页面 -&amp;nbsp;&lt;span style=&quot;text-align: left&quot;&gt;path=/X.docx&amp;amp;action=create&amp;amp;fs_id=xxx&amp;amp;type=4&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="34" y="-778" width="758" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-547" value="在线文档页面 -&amp;nbsp;打开 X.doc/docx 文档时的接口调用逻辑时序示意图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="-821" width="606" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-548" value="在线文档编辑页面 -&amp;nbsp;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;path=/a&amp;amp;action=edit&amp;amp;fs_id=xxx&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;type=10&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="34" y="-218" width="758" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-549" value="在线文档页面 - 编辑 X.wp 文档时的接口调用逻辑时序示意图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="-261" width="546" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-550" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="231.88" y="-687" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-551" value="filemetas 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="188" y="-188" width="97" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-553" value="create 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="-188" width="99.5" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-555" value="convert 接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;strokeColor=#A3A3A3;" vertex="1" parent="1">
+          <mxGeometry x="455" y="-188" width="114" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-556" value="文档编辑器内核" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=23;" vertex="1" parent="1">
+          <mxGeometry x="594" y="-188" width="100" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-557" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;strokeColor=#000000;fillColor=#ffffff;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1aMFZUBl64lX4fMlub7T-556">
+          <mxGeometry x="45" y="23" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="1aMFZUBl64lX4fMlub7T-559" value="新建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="217" y="-469" width="34" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
