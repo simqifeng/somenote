@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T03:41:43.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="Jl6_asEotP9E90Ulxg3z" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T03:50:18.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="00dUwnvGJZGKFo3hxTwS" version="14.5.6" type="github">
   <diagram id="Zyiit8WRXVwheUQ-SJ99" name="Page-1">
     <mxGraphModel dx="1298" dy="6583" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3327,8 +3327,8 @@
         <mxCell id="l-1fMhdVeKgt6MWq-b3_-102" value="。。。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=1;fontSize=12;align=center;fillColor=#007FFF;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="479.393212063188" y="-3975" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l-1fMhdVeKgt6MWq-b3_-104" value="前端架构" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="71.99999999999991" y="-5789" width="90" height="28" as="geometry" />
+        <mxCell id="l-1fMhdVeKgt6MWq-b3_-104" value="外贸服务平台前端架构" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="71.99999999999991" y="-5789" width="210" height="28" as="geometry" />
         </mxCell>
         <mxCell id="l-1fMhdVeKgt6MWq-b3_-105" value="基础框架" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=1;fontSize=12;align=center;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="74.31999999999996" y="-5471" width="80" height="30" as="geometry" />
