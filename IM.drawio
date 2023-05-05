@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T16:28:11.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lE3_usmMhC2knIAhdXGw" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T11:16:25.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sO874pHWj99X36RDWI3C" version="21.2.1" type="github">
   <diagram name="第 1 页" id="Ruh7ImkBMBkC0HaApEOw">
-    <mxGraphModel dx="982" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,8 +86,8 @@
         <mxCell id="fL-9hyHwcYi3x7qJMCCa-25" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="478" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fL-9hyHwcYi3x7qJMCCa-26" value="触发重连机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="445" y="60" width="100" height="30" as="geometry" />
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-26" value="断开旧连接后触发重连机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="60" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fL-9hyHwcYi3x7qJMCCa-27" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="653" y="420" width="40" height="30" as="geometry" />
@@ -98,8 +98,8 @@
         <mxCell id="fL-9hyHwcYi3x7qJMCCa-29" value="pong" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="653" y="551" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fL-9hyHwcYi3x7qJMCCa-30" value="IM 心跳机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="10" width="90" height="30" as="geometry" />
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-30" value="IM 心跳机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fL-9hyHwcYi3x7qJMCCa-39" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="114" y="530" width="80" height="46" as="geometry" />
@@ -180,6 +180,96 @@
         </mxCell>
         <mxCell id="fL-9hyHwcYi3x7qJMCCa-68" value="清除心跳定时杀掉当前worker进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="283" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-79" value="第二次重连失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="273" y="780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-84" value="第一次重连失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-85" value="第三次重连失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="429" y="780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-89" value="" style="shape=arrow;html=1;rounded=0;fillColor=#004C99;sketch=1;curveFitting=1;jiggle=2;arcSize=12;" edge="1" parent="1" target="fL-9hyHwcYi3x7qJMCCa-88">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="153" y="830" as="sourcePoint" />
+            <mxPoint x="840" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-88" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC0000;container=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-91" value="" style="shape=arrow;html=1;rounded=0;fillColor=#004C99;arcSize=20;fillOpacity=100;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="fL-9hyHwcYi3x7qJMCCa-88" target="fL-9hyHwcYi3x7qJMCCa-90">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="240" y="830" as="sourcePoint" />
+            <mxPoint x="840" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-90" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC0000;container=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="318" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-93" value="" style="shape=arrow;html=1;rounded=0;fillColor=#004C99;arcSize=20;fillOpacity=100;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="fL-9hyHwcYi3x7qJMCCa-90" target="fL-9hyHwcYi3x7qJMCCa-92">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="368" y="830" as="sourcePoint" />
+            <mxPoint x="840" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-92" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC0000;container=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-94" value="" style="endArrow=classic;html=1;rounded=1;shape=arrow;sketch=1;curveFitting=1;jiggle=2;fillColor=#FFD966;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="152" y="920" as="sourcePoint" />
+            <mxPoint x="800" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-98" value="主线程重连" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="815" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-99" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="885" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-101" value="探测到断网了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="866" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-102" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CC0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="780" as="sourcePoint" />
+            <mxPoint x="540" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-103" value="重置重连间隔时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-104" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="885" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-105" value="探测到网络恢复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577" y="865" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-106" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#66CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="780" as="sourcePoint" />
+            <mxPoint x="570" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-107" value="第一次重连成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-109" value="" style="shape=arrow;html=1;rounded=0;fillColor=#004C99;arcSize=20;fillOpacity=100;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="fL-9hyHwcYi3x7qJMCCa-92" target="fL-9hyHwcYi3x7qJMCCa-108">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="500" y="830" as="sourcePoint" />
+            <mxPoint x="840" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-108" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;container=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#336600;" vertex="1" parent="1">
+          <mxGeometry x="600" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-111" value="worker线程网络探测" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="21" y="905" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fL-9hyHwcYi3x7qJMCCa-112" value="IM 退避重连机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="45" y="710" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
